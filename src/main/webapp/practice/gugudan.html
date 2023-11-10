@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>실습1 : 구구단 계산하기</title>
+</head>
+<body>
+<h1 style="text-align: center">Get으로 요청</h1>
+<form action="/gugudan-servlet">
+    <DIV style="position: page; text-align: center; font-size: 30px; height:200px">
+        <label for="number"> 확인하고 싶은 구구단 숫자 : </label>
+        <input type="text" name="number" id="number">
+        <br>
+
+        <input type="submit" size="40" value="결과 확인하기">
+    </DIV>
+
+    <DIV style="text-align: center; font-size: 30px; letter-spacing: 1px">
+        <input type="button" size="10" value="이전 페이지로 이동" onclick="history.back()">
+    </DIV>
+</form>
+
+</body>
+</html>
