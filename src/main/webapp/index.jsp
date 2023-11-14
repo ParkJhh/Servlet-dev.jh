@@ -15,6 +15,12 @@
   <hr>
 
   <DIV style="text-align: start; font-size: 20px; line-height: 40px">
+    <a href=practice/join.html title="회원가입!!!!"> 회원가입 </a>
+    <p></p>
+    <a href=practice/loginOut.html title="로그인!!!!"> 로그인 </a>
+    <p></p>
+<%--    <a href=practice/example.html title="로그인!!!!"> 테스트 </a>--%>
+<%--    <p></p>--%>
     <a href=practice/gugudan.html title="야 너두 구구단 할 수 있어."> 실습1) 구구단 계산하기</a>
     <p></p>
     <a href=practice/Calc.html title="야 너두 계산할 수 있어"> 실습2) 숫자 두개 계산하기</a>
@@ -32,10 +38,7 @@
     <p></p>
     <a href =dispatcher1>  포워드 </a>
     <p></p>
-
     <a href ="memberInfo.html"> 쿼리 스트링 </a>
-    <p></p>
-    <a href ="trackInfo.html"> 공사중 </a>
     <p></p>
   </DIV>
   <hr>

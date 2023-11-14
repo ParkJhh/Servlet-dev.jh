@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>정보를 입력하세요</title>
+</head>
+<body bgcolor="#fff8dc">
+    <h1 style="text-align: center">Get으로 요청</h1>
+    <form action="/query-string-servlet">
+        <DIV style="position: page; text-align: center; font-size: 30px; height:250px">
+        <label for="name"> 이름 : </label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="city"> 지역 : </label>
+        <input type="text" name="city" id="city">
+        <br>
+
+        <input type="submit" value="전송하기">
+        </DIV>
+    </form>
+
+    <h1 style="text-align: center">포스트로 요청</h1>
+    <form action="/query-string-servlet" method="POST">
+        <DIV style="position: page; text-align: center; font-size: 30px; height:250px">
+            <label for="name2"> 이름 : </label>
+            <input type="text" name="name" id="name2">
+            <br>
+            <label for="city2"> 지역 : </label>
+            <input type="text" name="city" id="city2">
+            <br>
+
+            <input type="submit" value="전송하기">
+        </DIV>
+    </form>
+</body>
+</html>
