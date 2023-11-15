@@ -14,7 +14,6 @@ import java.io.PrintWriter;
 public class loginOut extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("test");
         resp.setContentType("text/html;charset=UTF-8");
         PrintWriter out =resp.getWriter();
 

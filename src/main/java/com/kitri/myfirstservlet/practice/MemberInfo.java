@@ -52,5 +52,4 @@ public class MemberInfo extends HttpServlet {
             out.println("<a href=http://localhost:8080/ >[메인페이지로]</a>");
         }
     }
-
 }
